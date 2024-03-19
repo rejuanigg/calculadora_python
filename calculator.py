@@ -1,4 +1,4 @@
-#CALCULADORA
+# CALCULADORA
 
 from tkinter import *
 
@@ -9,6 +9,11 @@ ventana.title("Calculadora")
 
 input_text = Entry(ventana, font=("Calibri 20"))
 input_text.grid(row = 0, column= 0, columnspan=4, padx= 10, pady=5)
+
+
+    
+
+    
 
 #BOTONES
 boton1 = Button(ventana, text = "1", width= 5, height= 2)
@@ -34,15 +39,18 @@ boton_resta = Button(ventana, text = "-", width= 5, height= 2)
 boton_igual = Button(ventana, text = "=", width= 5, height= 2)
 
 #AGREGAR BOTONES A LA PANTALLA
+
+
+
 boton_ac.grid(row= 1, column= 0, padx= 5, pady= 5)
 boton_p1.grid(row= 1, column= 1, padx= 5, pady= 5)
 boton_p2.grid(row= 1, column= 2, padx= 5, pady= 5)
 
 boton_division.grid(row= 1, column= 3, padx= 5, pady= 5)
 
-boton7.grid(row=2 , column=0 , padx=5 , pady=5 )
-boton8.grid(row=2 , column=1 , padx=5 , pady=5 )
-boton9.grid(row=2 , column=2 , padx=5 , pady=5 )
+boton7.grid(row=2 , column=0 , padx=5 , pady=5)
+boton8.grid(row=2 , column=1 , padx=5 , pady=5)
+boton9.grid(row=2 , column=2 , padx=5 , pady= 5)
 
 boton_multiplicacion.grid(row= 2, column=3 , padx= 5, pady= 5)
 
