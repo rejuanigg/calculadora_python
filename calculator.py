@@ -10,11 +10,6 @@ ventana.title("Calculadora")
 input_text = Entry(ventana, font=("Calibri 20"))
 input_text.grid(row = 0, column= 0, columnspan=4, padx= 10, pady=5)
 
-
-    
-
-    
-
 #BOTONES
 boton1 = Button(ventana, text = "1", width= 5, height= 2)
 boton2 = Button(ventana, text = "2", width= 5, height= 2)
@@ -69,19 +64,6 @@ boton_resta.grid(row= 4, column= 3, padx= 5, pady= 5)
 boton0.grid(row= 5, columnspan= 2, column=0 , padx= 10, pady= 5)
 boton_point.grid(row= 5, column= 2, padx= 5, pady= 5)
 boton_igual.grid(row= 5, column= 3, padx= 5, pady= 5)
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ventana.mainloop()
 
